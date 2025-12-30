@@ -67,7 +67,7 @@ export default function MapBackground() {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
           <Marker position={position}>
-            <Popup>Lokasi Drive-in</Popup>
+            <Popup>Lokasi PT. Trans Nusa Services</Popup>
           </Marker>
         </MapContainer>
       </div>
@@ -77,11 +77,11 @@ export default function MapBackground() {
       {/* Animated overlay circles */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-red-500/5 rounded-full animate-ping"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/5 rounded-full animate-ping"
           style={{ animationDuration: "3s" }}
         ></div>
         <div
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-red-500/10 rounded-full animate-pulse"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/10 rounded-full animate-pulse"
           style={{ animationDuration: "2s" }}
         ></div>
       </div>
