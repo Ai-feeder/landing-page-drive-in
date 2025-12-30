@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Drive-in - Kursus Mengemudi Terpercaya",
+  title: "PT. Trans Nusa Services - Solusi Transportasi & Logistik Terpercaya",
   description:
-    "Kursus mengemudi terpercaya dengan instruktur berpengalaman. Raih SIM Anda dengan mudah dan aman bersama Drive-in.",
+    "PT. Trans Nusa Services adalah perusahaan induk yang bergerak di bidang transportasi dan logistik. Dengan anak perusahaan Drive-in (kursus mengemudi) dan Sumatrans (logistik & pengiriman).",
   icons: {
     icon: "/favicon.png",
   },
